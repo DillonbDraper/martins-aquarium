@@ -17,3 +17,17 @@ h1,h2,h3,h4,h5,h6 {
   font-family: "Patua One", serif;
   letter-spacing: 2px;
 }
+
+.title {
+	display: flex;
+	justify-content: center;
+}
+
+.container {
+	display: flex;
+}
+
+.fish-info {
+	border: 1px dotted green;
+	flex-basis: 75%;
+}
