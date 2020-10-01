@@ -29,9 +29,25 @@ h1,h2,h3,h4,h5,h6 {
 
 .fish-info {
 	border: 1px dotted green;
+	flex-wrap: wrap;
+	flex-grow: 3;
 }
 
 .fish-photo {
 	max-width: 25%;
 	height: auto;
+}
+
+.background {
+	background-image: url(https://lh3.googleusercontent.com/proxy/4YhvG8cKoixAvbFgAW7FnJDBSrB-wwSop3QPCcSkoLFVQ0KNG7dfeQirmiC0FBNR_NQgN0kQIu8MaufLsF10V0oPejbmdRiBliGM7Lpx2hbbrtib6Fe8HhX_Z6RdseC5TcKoFRFylMZNot4kLHaREUJS);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.tank-info {
+	flex-wrap: wrap;
+	flex-grow: 1;
+	flex-basis: 30%;
+	display: flex;
+	justify-content: center;
 }
