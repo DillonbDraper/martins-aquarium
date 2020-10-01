@@ -45,7 +45,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .fish-item {
-	max-width: 24%;
+	flex-basis: 25%;
 	flex-wrap: wrap;
 	background-color: whitesmoke;
 	margin: 0em 1em 1em 1em;
