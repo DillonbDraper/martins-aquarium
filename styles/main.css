@@ -50,6 +50,8 @@ h1,h2,h3,h4,h5,h6 {
 	flex-wrap: wrap;
 	background-color: whitesmoke;
 	margin: 0em 1em 1em 1em;
+	border-style: hidden;
+	border-radius: 5px;
 }
 
 .tips {
