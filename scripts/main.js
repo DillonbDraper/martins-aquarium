@@ -1,1 +1,6 @@
-console.log("Welcome to the main module")
+import { useFish } from './FishDataProvider.js'
+import { FishList } from './FishList.js'
+
+const allTheFish = useFish()
+
+FishList();
